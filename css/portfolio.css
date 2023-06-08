@@ -49,7 +49,7 @@ Portfolio
     top: 0;
     visibility: hidden;
     position: absolute;
-    z-index: 2;
+    z-index: 32;
     transition: all 0.5s;
 }
 
