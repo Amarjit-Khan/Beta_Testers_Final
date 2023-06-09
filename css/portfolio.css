@@ -30,7 +30,7 @@ Portfolio
     position: relative;
 }
 
-.our-portfolio .item:hover .hidden-content {
+/* .our-portfolio .item:hover .hidden-content {
     top: -100px;
     opacity: 1;
     visibility: visible;
@@ -38,6 +38,18 @@ Portfolio
 
 .our-portfolio .item:hover .showed-content {
     top: 100px;
+    z-index: 4;
+} */
+
+.click-folio .showed-content {
+    top: 100px;
+    z-index: 4;
+}
+
+.click-folio .hidden-content {
+    top: -100px;
+    opacity: 1;
+    visibility: visible;
 }
 
 .our-portfolio .hidden-content {
